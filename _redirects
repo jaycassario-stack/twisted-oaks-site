@@ -1,0 +1,11 @@
+# Old-site address -> new address. Netlify and Cloudflare Pages both read this file.
+# Fill this in from the old URL list (Google Search Console > Pages) before launch.
+# Format: /old-path/   /new-path/   301
+# /stories/engagements/   /stories/   301
+# /reviews/                 /about/       301
+# /the-ryland-inn-wedding/  /stories/the-ryland-inn-wedding/  301
+
+# The Journal was folded into Stories (Oct 2026)
+/journal/    /stories/  301
+/journal/*   /stories/  301
+/stories/mason-morgan-ocean-city-nj-engagement/   /stories/mason-morgan-congress-hall-cape-may-engagement/   301

@@ -963,7 +963,7 @@ figure.ph > figcaption{display:none!important}
 /* About: short film */
 .film-sec{padding-top:clamp(24px,4vw,56px);padding-bottom:clamp(40px,6vw,88px);text-align:center}
 .film-sec h2{margin:.25em 0 .9em;font-size:clamp(2rem,4.4vw,3.2rem);line-height:1.1}
-.yt{position:relative;aspect-ratio:16/9;background:#111;overflow:hidden;max-width:1100px;margin:0 auto}
+.yt{position:relative;aspect-ratio:2.4/1;background:#111;overflow:hidden;max-width:1100px;margin:0 auto}
 .yt img,.yt iframe{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;border:0}
 .yt-play{position:absolute;inset:0;width:100%;height:100%;background:transparent;border:0;cursor:pointer;display:grid;place-items:center}
 .yt-play svg{width:clamp(56px,7vw,84px);height:auto;transition:transform .3s}

@@ -21,7 +21,3 @@ document.querySelectorAll('.yt').forEach(function (box) {
     if (still.complete) check(); else still.addEventListener('load', check);
   }
 });
-    }, { rootMargin: '200px 0px' });
-    io.observe(box);
-  }
-});

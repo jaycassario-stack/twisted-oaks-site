@@ -9,7 +9,7 @@
     e.preventDefault();
     if (form.action.indexOf('YOUR_FORM_ID') !== -1) {
       status.className = 'form-status err';
-      status.textContent = 'This form is not connected yet. Please email info@twistedoaksstudio.com.';
+      status.textContent = 'This form is not connected yet. Please email jaycassario@gmail.com.';
       return;
     }
     button.disabled = true;
@@ -25,7 +25,7 @@
         button.disabled = false;
         button.textContent = 'Send inquiry';
         status.className = 'form-status err';
-        status.textContent = 'Something went wrong. Please try again, or email info@twistedoaksstudio.com.';
+        status.textContent = 'Something went wrong. Please try again, or email jaycassario@gmail.com.';
       });
   });
 })();

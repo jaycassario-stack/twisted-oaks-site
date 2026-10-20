@@ -979,4 +979,13 @@ figure.ph > figcaption{display:none!important}
 .guide-quick li,.guide-list li{margin:0 0 .7em;line-height:1.6}
 .guide-body h2{margin-top:1.8em}
 .guide-body .faq{margin-top:.6em}
+
+.guide-ph{margin:1.6em 0 2em;max-width:680px}
+.guide-ph img{display:block;width:100%;height:auto}
+.guide-ph.tall{max-width:440px}
+.guide-ph figcaption{font-family:Jost,sans-serif;font-size:.7rem;letter-spacing:.14em;text-transform:uppercase;color:var(--mute);margin-top:.7em}
+.guide-pair{display:grid;grid-template-columns:1fr 1fr;gap:14px;max-width:680px;margin:1.6em 0}
+.guide-pair .guide-ph{margin:0}
+.guide-pair img{aspect-ratio:4/5;object-fit:cover}
+@media (max-width:640px){.guide-pair{grid-template-columns:1fr}}
 .guide-sign{margin-top:2.4em;font-family:"Cormorant Garamond",serif;font-style:italic;font-size:1.3rem;line-height:1.5}

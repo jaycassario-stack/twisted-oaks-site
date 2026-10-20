@@ -969,3 +969,14 @@ figure.ph > figcaption{display:none!important}
 .yt-play svg{width:clamp(56px,7vw,84px);height:auto;transition:transform .3s}
 .yt-play:hover svg,.yt-play:focus-visible svg{transform:scale(1.08)}
 .yt-play:focus-visible{outline:2px solid var(--brand);outline-offset:-4px}
+
+/* Guides */
+.guide-by{font-family:Jost,sans-serif;font-size:.72rem;letter-spacing:.16em;text-transform:uppercase;color:var(--mute);margin-top:1.2em}
+.guide-body{padding-bottom:clamp(48px,7vw,96px)}
+.guide-body .lede{font-family:"Cormorant Garamond",serif;font-size:clamp(1.3rem,2.2vw,1.6rem);line-height:1.45;color:var(--ink);margin:0 0 1.4em}
+.guide-quick{max-width:680px;background:var(--card);border:1px solid var(--line);padding:clamp(20px,3vw,32px);margin:0 0 2em}
+.guide-quick .eyebrow{margin:0 0 .8em}
+.guide-quick li,.guide-list li{margin:0 0 .7em;line-height:1.6}
+.guide-body h2{margin-top:1.8em}
+.guide-body .faq{margin-top:.6em}
+.guide-sign{margin-top:2.4em;font-family:"Cormorant Garamond",serif;font-style:italic;font-size:1.3rem;line-height:1.5}

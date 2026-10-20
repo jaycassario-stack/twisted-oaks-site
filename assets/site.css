@@ -970,6 +970,11 @@ figure.ph > figcaption{display:none!important}
 .yt-play:hover svg,.yt-play:focus-visible svg{transform:scale(1.08)}
 .yt-play:focus-visible{outline:2px solid var(--brand);outline-offset:-4px}
 
+/* FAQ guide callout */
+.faq-guide{margin:clamp(36px,5vw,56px) 0 clamp(48px,7vw,88px);padding:clamp(22px,3vw,34px);background:var(--card);border:1px solid var(--line)}
+.faq-guide .eyebrow{margin:0 0 .6em}
+.faq-guide p:not(.eyebrow){margin:0 0 1.2em;line-height:1.7}
+
 /* Guides */
 .guide-by{font-family:Jost,sans-serif;font-size:.72rem;letter-spacing:.16em;text-transform:uppercase;color:var(--mute);margin-top:1.2em}
 .guide-body{padding-bottom:clamp(48px,7vw,96px)}

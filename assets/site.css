@@ -987,5 +987,6 @@ figure.ph > figcaption{display:none!important}
 .guide-pair{display:grid;grid-template-columns:1fr 1fr;gap:14px;max-width:680px;margin:1.6em 0}
 .guide-pair .guide-ph{margin:0}
 .guide-pair img{aspect-ratio:4/5;object-fit:cover}
+.guide-pair.wide img{aspect-ratio:3/2}
 @media (max-width:640px){.guide-pair{grid-template-columns:1fr}}
 .guide-sign{margin-top:2.4em;font-family:"Cormorant Garamond",serif;font-style:italic;font-size:1.3rem;line-height:1.5}

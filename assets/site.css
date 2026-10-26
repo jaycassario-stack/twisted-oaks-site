@@ -975,6 +975,11 @@ figure.ph > figcaption{display:none!important}
 .faq-guide .eyebrow{margin:0 0 .6em}
 .faq-guide p:not(.eyebrow){margin:0 0 1.2em;line-height:1.7}
 
+/* 404 page tiles */
+.nf-tiles{padding-bottom:clamp(56px,8vw,112px)}
+.nf-tiles .story .ph{aspect-ratio:3/2;margin:0 0 14px}
+.nf-tiles .story h2{font-size:1.35rem;margin:0}
+
 /* Guides */
 .guide-by{font-family:Jost,sans-serif;font-size:.72rem;letter-spacing:.16em;text-transform:uppercase;color:var(--mute);margin-top:1.2em}
 .guide-body{padding-bottom:clamp(48px,7vw,96px)}

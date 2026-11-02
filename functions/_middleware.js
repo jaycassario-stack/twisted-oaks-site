@@ -42,7 +42,7 @@ const EXACT = {
   'cape-may-engagement-tara-matthew': STORY.capeMay,
 };
 
-const NEW_SECTIONS = new Set(['assets', 'stories', 'guides', 'contact', 'faq', 'investment', 'locations', 'functions']);
+const NEW_SECTIONS = new Set(['assets', 'stories', 'guides', 'contact', 'faq', 'investment', 'locations', 'venues', 'functions']);
 
 // Services and pages that no longer exist: leave these as "not found"
 const GONE = /lifestyle|family|newborn|maternity|boudoir|utah|salt-lake|red-rock|spring-sale|^chase$|stinsman|test-post|sarahs-portfolio|^tag$|^wp-|^feed$/;

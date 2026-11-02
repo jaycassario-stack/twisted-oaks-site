@@ -30,6 +30,7 @@ const EXACT = {
   'ideal-wedding-photo-timeline-2': CHOOSE,
   'reasons-to-get-engagement-photos': ENG,
   'a-bishop-farmstead-wedding-steve-madison': STORY.bishop, 'bishop': STORY.bishop,
+  'bishop-farmstead-mike-meg': '/stories/meg-maley-mike-holloway-bishop-farmstead-wedding/',
   '21896-2': STORY.woolverton, 'woolverton-inn-elopement-heather-randy': STORY.woolverton,
   'johnsons-locust-hall-farm-wedding': STORY.johnsons,
   'ballroom-at-the-ben-wedding-chris-danielle': STORY.ben,

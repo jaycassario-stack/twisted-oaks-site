@@ -15,6 +15,7 @@ const STORY = {
 };
 const ENG = '/guides/engagement-session-locations-south-jersey-jersey-shore/';
 const CHOOSE = '/guides/choosing-a-wedding-photographer-south-jersey-philadelphia/';
+const VENUES = '/guides/best-wedding-venues-philadelphia-south-jersey/';
 
 // Old post or page slug -> new address (checked first)
 const EXACT = {
@@ -25,8 +26,8 @@ const EXACT = {
   'album-designs': '/investment/', 'albums': '/investment/', 'albums-faq': '/investment/',
   'album-reveal-melanie-joe': '/investment/', 'linen-swatches': '/investment/', 'leather-swatches': '/investment/',
   'canvas-prints': '/investment/', 'framed-cotton-prints': '/investment/', 'products': '/investment/',
-  'top-philly-wedding-venues': CHOOSE, 'top-5-rustic-venues-nj-pa': CHOOSE, 'top-5-rustic-venues-nj-pa-2': CHOOSE,
-  'top-6-rustic-': CHOOSE, 'why-a-professional-wedding-photographeris-a-smart-choice': CHOOSE,
+  'top-philly-wedding-venues': VENUES, 'top-5-rustic-venues-nj-pa': VENUES, 'top-5-rustic-venues-nj-pa-2': VENUES,
+  'top-6-rustic-': VENUES, 'why-a-professional-wedding-photographeris-a-smart-choice': CHOOSE,
   'ideal-wedding-photo-timeline-2': CHOOSE,
   'reasons-to-get-engagement-photos': ENG,
   'a-bishop-farmstead-wedding-steve-madison': STORY.bishop, 'bishop': STORY.bishop,

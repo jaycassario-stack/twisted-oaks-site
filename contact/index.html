@@ -50,7 +50,7 @@
    ]
   }
  ]
-}</script><style>.inquiry-intro{max-width:640px;margin-top:18px}.inquiry-intro p{margin:0 0 12px}.form .check{display:flex;align-items:center;gap:8px;margin-top:8px;font-size:.8rem;color:var(--mute)}.form .check input{width:auto;margin:0}.form .hint{display:block;margin-top:4px;font-size:.8rem;line-height:1.5;color:var(--mute)}</style></head><body>
+}</script><style>.inquiry-intro{max-width:640px;margin-top:18px}.inquiry-intro p{margin:0 0 12px}.form .check{display:flex;align-items:center;gap:8px;margin-top:8px;font-size:.8rem;color:var(--mute)}.form .check input{width:auto;margin:0}.form .choice{border:0;margin:0 0 16px;padding:0}.form .choice legend{font-size:.85rem;color:var(--mute);margin-bottom:8px;padding:0}.form .choice label{display:inline-flex;align-items:center;gap:8px;margin:0 22px 0 0;font-size:.95rem;color:var(--ink)}.form .choice input{width:auto;margin:0}.form .hint{display:block;margin-top:4px;font-size:.8rem;line-height:1.5;color:var(--mute)}</style></head><body>
 <a class="skip" href="#main">Skip to content</a>
 <header class="kt-head" id="ktHead"><div class="kt-bar"><button type="button" id="ktMenuBtn" class="kt-menubtn" aria-expanded="false" aria-controls="ktMenu"><span class="bars"><i></i><i></i></span><span class="lbl">Menu</span></button><a class="logo" href="/" aria-label="Twisted Oaks Studio, home"><svg class="logo-svg" version="1.1" xmlns="http://www.w3.org/2000/svg" width="174.09" height="44.75" viewBox="0 0 174.09 44.75" role="img" aria-label="Twisted Oaks Studio">
 <g transform="translate(0 11.569) scale(0.7)">
@@ -95,6 +95,11 @@
         <span class="check"><input type="checkbox" name="date_not_set" value="Still deciding" id="date-not-set"> Still deciding on a date</span></label>
       <label>Venue or location<input name="venue" required placeholder="Venue, or town if still looking"></label>
     </div>
+    <fieldset class="choice"><legend>What are you looking for?</legend>
+      <label><input type="radio" name="coverage" value="Photography" required> Photography</label>
+      <label><input type="radio" name="coverage" value="Video"> Video</label>
+      <label><input type="radio" name="coverage" value="Photography and video"> Both</label>
+    </fieldset>
     <label>Estimated guest count <span class="opt">(optional)</span><input name="guest_count" inputmode="numeric" placeholder="A rough guess is fine"></label>
     <label>Tell me a little about your wedding <span class="opt">(optional, but my favorite part)</span>
       <span class="hint">What’s the vision? Something small and intimate, a huge celebration, a backyard wedding, or something completely out of the ordinary? I’d love to hear about it.</span>

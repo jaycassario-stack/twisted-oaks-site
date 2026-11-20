@@ -901,7 +901,7 @@ figure.ph > figcaption{display:none!important}
 .sp-gallery{display:grid;gap:14px;padding-bottom:clamp(40px,6vw,80px)}
 .sp-row{display:flex;gap:14px}
 .sp-more{padding-bottom:clamp(48px,7vw,96px)}
-@media (max-width:640px){.sp-gallery{gap:10px}.sp-row{gap:10px}.sp-row:not(.vv){flex-direction:column}.sp-row:not(.vv) .sp{flex:none;width:100%}}
+@media (max-width:640px){.sp-gallery{gap:10px}.sp-row{gap:10px}}
 .lb{position:fixed;inset:0;z-index:100;background:rgba(12,10,9,.94);display:flex;align-items:center;justify-content:center;
   padding:max(16px,env(safe-area-inset-top,0px)) max(16px,env(safe-area-inset-right,0px)) max(16px,env(safe-area-inset-bottom,0px)) max(16px,env(safe-area-inset-left,0px))}
 .lb[hidden]{display:none}

@@ -25,6 +25,8 @@ const EXACT = {
   'portfolio': '/portfolio/',
   'album-designs': '/investment/', 'albums': '/investment/', 'albums-faq': '/investment/',
   'album-reveal-melanie-joe': '/investment/', 'linen-swatches': '/investment/', 'leather-swatches': '/investment/',
+  'portraitpricing': '/maternity/', 'portrait-pricing': '/maternity/', 'pricing': '/investment/', 'prices': '/investment/',
+  'packages': '/investment/', 'weddingpricing': '/investment/', 'wedding-pricing': '/investment/', 'rates': '/investment/',
   'canvas-prints': '/investment/', 'framed-cotton-prints': '/investment/', 'products': '/investment/',
   'top-philly-wedding-venues': VENUES, 'top-5-rustic-venues-nj-pa': VENUES, 'top-5-rustic-venues-nj-pa-2': VENUES,
   'top-6-rustic-': VENUES, 'why-a-professional-wedding-photographeris-a-smart-choice': CHOOSE,
@@ -43,7 +45,7 @@ const EXACT = {
   'cape-may-engagement-tara-matthew': STORY.capeMay,
 };
 
-const NEW_SECTIONS = new Set(['assets', 'stories', 'guides', 'contact', 'faq', 'investment', 'locations', 'venues', 'functions']);
+const NEW_SECTIONS = new Set(['maternity', 'assets', 'stories', 'guides', 'contact', 'faq', 'investment', 'locations', 'venues', 'functions']);
 
 // Services and pages that no longer exist: leave these as "not found"
 const GONE = /lifestyle|family|newborn|maternity|boudoir|utah|salt-lake|red-rock|spring-sale|^chase$|stinsman|test-post|sarahs-portfolio|^tag$|^wp-|^feed$/;
@@ -57,6 +59,7 @@ function oldSiteTarget(path) {
   if (NEW_SECTIONS.has(slug) || /\.[a-z0-9]{2,5}$/.test(path)) return null; // new-site areas and files
   if (slug === 'category') return S;
   if (EXACT[slug]) return EXACT[slug];
+  if (slug.includes('maternity')) return '/maternity/';
   if (GONE.test(slug) || PHOTO_PAGE.test(slug)) return null;
   if (slug.startsWith('bishop-farmstead')) return STORY.bishop;
   if (slug.includes('ballroom-at-the-ben')) return STORY.ben;

@@ -23,9 +23,18 @@
       })
       .catch(function () {
         button.disabled = false;
-        button.textContent = 'Send inquiry';
+        button.textContent = 'Send it over';
         status.className = 'form-status err';
         status.textContent = 'Something went wrong. Please try again, or email jaycassario@gmail.com.';
       });
   });
+})();
+
+// "Still deciding on a date" makes the date optional.
+(function () {
+  var box = document.getElementById('date-not-set');
+  var date = document.getElementById('wedding-date');
+  if (!box || !date) return;
+  function sync() { date.required = !box.checked; date.disabled = box.checked; if (box.checked) date.value = ''; }
+  box.addEventListener('change', sync); sync();
 })();

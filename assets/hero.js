@@ -75,9 +75,15 @@
 
   show.querySelector('.hs-next').addEventListener('click', function () { go(index + 1); });
   show.querySelector('.hs-prev').addEventListener('click', function () { go(index - 1); });
-  pauseBtn.addEventListener('click', function () { setPaused(!userPaused); });
-  show.addEventListener('mouseenter', function () { hovering = true; stop(); });
-  show.addEventListener('mouseleave', function () { hovering = false; restart(); });
+  // Pressing play starts right away with the next photo, so it's clear it worked.
+  pauseBtn.addEventListener('click', function () {
+    if (userPaused) { hovering = false; userPaused = false; show.classList.remove('paused'); pauseBtn.setAttribute('aria-label', 'Pause slideshow'); go(index + 1); }
+    else setPaused(true);
+  });
+  // Pause on hover only for a real mouse. Phones fire fake "mouse" events on a tap
+  // that never end, which used to leave the slideshow stuck after pressing play.
+  show.addEventListener('pointerenter', function (e) { if (e.pointerType === 'mouse') { hovering = true; stop(); } });
+  show.addEventListener('pointerleave', function (e) { if (e.pointerType === 'mouse') { hovering = false; restart(); } });
   document.addEventListener('visibilitychange', restart);
   show.addEventListener('keydown', function (e) {
     if (e.key === 'ArrowRight') go(index + 1);

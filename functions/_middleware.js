@@ -15,7 +15,7 @@ const STORY = {
 };
 const ENG = '/guides/engagement-session-locations-south-jersey-jersey-shore/';
 const CHOOSE = '/guides/choosing-a-wedding-photographer-south-jersey-philadelphia/';
-const VENUES = '/guides/best-wedding-venues-philadelphia-south-jersey/';
+const VENUES = '/guides/best-wedding-venues-philadelphia-new-jersey/';
 
 // Old post or page slug -> new address (checked first)
 const EXACT = {

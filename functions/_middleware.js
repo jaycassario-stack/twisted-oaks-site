@@ -24,6 +24,8 @@ const EXACT = {
   'portfolio': '/portfolio/',
   'album-designs': '/investment/', 'albums': '/investment/', 'albums-faq': '/investment/',
   'album-reveal-melanie-joe': '/investment/', 'linen-swatches': '/investment/', 'leather-swatches': '/investment/',
+  'portraitpricing': '/investment/', 'portrait-pricing': '/investment/', 'pricing': '/investment/', 'prices': '/investment/',
+  'packages': '/investment/', 'weddingpricing': '/investment/', 'wedding-pricing': '/investment/', 'rates': '/investment/',
   'canvas-prints': '/investment/', 'framed-cotton-prints': '/investment/', 'products': '/investment/',
   'top-philly-wedding-venues': CHOOSE, 'top-5-rustic-venues-nj-pa': CHOOSE, 'top-5-rustic-venues-nj-pa-2': CHOOSE,
   'top-6-rustic-': CHOOSE, 'why-a-professional-wedding-photographeris-a-smart-choice': CHOOSE,

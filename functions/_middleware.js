@@ -52,7 +52,14 @@ const GONE = /lifestyle|family|newborn|maternity|boudoir|utah|salt-lake|red-rock
 // WordPress photo pages (one per uploaded photo): leave as "not found"
 const PHOTO_PAGE = /jpg_\d|_o$|_k(-\d+)?$|^\d{8,}|^twisted-oaks-studio-.*\d+$|^jay_cassario_twisted_oaks|^[a-z]{0,4}\d{3,}/;
 
+// New-site pages that moved
+const MOVED = {
+  '/stories/amanda-matt-asbury-park-engagement/': '/stories/matt-amanda-asbury-park-engagement/',
+};
+
 function oldSiteTarget(path) {
+  const pslash = path.endsWith('/') ? path : path + '/';
+  if (MOVED[pslash]) return MOVED[pslash];
   const segs = path.replace(/^\/_main_site(?=\/|$)/, '').split('/').filter(Boolean);
   if (!segs.length) return '/';
   const slug = decodeURIComponent(segs[0]).toLowerCase();

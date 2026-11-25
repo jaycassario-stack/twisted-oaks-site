@@ -1015,3 +1015,4 @@ figure.ph > figcaption{display:none!important}
 .guide-sign{margin-top:2.4em;font-family:'Cormorant Garamond','Cormorant Fallback',serif;font-style:italic;font-size:1.3rem;line-height:1.5}
 
 .film-sound{margin:.9em 0 0;font-size:.95rem}.film-sound a{color:inherit;text-underline-offset:3px}
+.yt.film{max-width:none;width:100vw;margin-left:calc(50% - 50vw);margin-right:calc(50% - 50vw)}
